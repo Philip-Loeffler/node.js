@@ -13,7 +13,8 @@ for (let hobby of hobbies) {
     console.log(hobby)
 }
 
-
+//param hobby is each individual hobby inside hobbies 
+//then string plus whateer the hobbies are 
 console.log(hobbies.map(hobby => 'Hobby:' + hobby));
 
 // how to copy an array
