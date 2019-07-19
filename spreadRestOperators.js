@@ -38,3 +38,19 @@ console.log(arrayinsideanarray);
 // can also be used on our person object
 const copiedPerson = {...person};
 console.log(copiedPerson);
+
+//array function returning three arguments
+const toArray =(arg1, arg2, arg3) => {
+return  [arg1, arg2, arg3]
+};
+
+console.log(toArray(1,2,3));
+
+// allows us to use as many argurments as we want
+// we are using it to merge multiple arguments 
+// if we see the ... in a functions we know its the rest operator
+const argsArray = (...args) => {
+    return  args;
+    };
+    
+    console.log(toArray(1,2,3,4,5));
