@@ -10,6 +10,7 @@ const fetchData = callback => {
     }, 
 
     // here are promises 
+    //
 const fetchData = () => {
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
