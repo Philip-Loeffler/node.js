@@ -10,7 +10,8 @@ const fetchData = callback => {
     }, 
 
     // here are promises 
-    //
+    // we can use the params of the promise because they are in the brackets. so they cna
+    // be used in the timeout function
 const fetchData = () => {
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
