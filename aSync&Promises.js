@@ -12,6 +12,8 @@ const fetchData = callback => {
     // here are promises 
     // we can use the params of the promise because they are in the brackets. so they cna
     // be used in the timeout function
+    //code inside a .then block will only execute once the Promise has either resolved or rejected
+// Asynchronous
 const fetchData = () => {
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
