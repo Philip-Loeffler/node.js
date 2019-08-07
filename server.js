@@ -25,6 +25,18 @@ http.createServer(funtion(req, res) {
 
 // and same thing with arrow function
 
-http.createServer((req, res) => {
+const server = http.createServer((req, res) => {
     console.log(req)
 });
+//node js will keep this app running for incoming request
+server.listen(3000);
+
+
+
+
+// this right here is almost a full functional web server 
+const http = require('http');
+const server = http.createServer((req, res) => {
+    console.log(req)
+});
+server.listen(3000);
